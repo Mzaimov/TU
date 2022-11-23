@@ -1,0 +1,62 @@
+#зад 1:
+# f = input("въведи фигура: ")
+#
+# def kv(a):
+#     x = 4*a
+#     print("лицето на квадрата е: ",x)
+# def prav(a,b):
+#     x = a*b
+#     print("лицето на правоъгълника е: ",x)
+# def tri(a,b):
+#     x = (a*b)/2
+#     print("лицето на прав триъгълник е: ",x)
+# if f == "квадрат":
+#     kv(int(input("въведи страна на квадрат: ")))
+#
+# elif f=="правоъгълник":
+#     prav(int(input("въведи страна на правоъгълник: ")),int(input("въведи страна на правоъгълник: ")))
+# else:
+#     tri(int(input("въведи страна на правоъгълен триъгълник: ")),int(input("въведи страна на правоъгълен триъгълник: ")))
+
+#зад 2
+
+#
+# def f(ch):
+#     reverse=0
+#     original=ch
+#     while ch>0:
+#         a=ch%10
+#         reverse=reverse*10+a
+#         ch=ch//10
+#     if original!=ch:
+#         print(ch,"polidrom")
+#
+#     else:
+#         print(ch,"ne e polidrom")
+#
+# f(int(input("ch: ")))
+#zad 3:
+# oper= input("operaciq: ")
+# def sum(a,b):
+#     x=a+b
+#     print(x)
+# def izv(a,b):
+#     x=a-b
+#     print(x)
+# def umn(a,b):
+#     x=b*a
+#     print(x)
+# def de(a,b):
+#     x=a/b
+#     if b==0:
+#         print("na nula ne se deli")
+#     else:
+#         print(x)
+# if oper=="+":
+#     sum(int(input('purvo ch: ')),(int(input('vtoro ch: '))))
+# elif oper=="-":
+#     izv(int(input('purvo ch: ')),(int(input('vtoro ch: '))))
+# elif oper=="*":
+#     umn(int(input('purvo ch: ')),(int(input('vtoro ch: '))))
+# else:
+#     de(int(input('purvo ch: ')),(int(input('vtoro ch: '))))
